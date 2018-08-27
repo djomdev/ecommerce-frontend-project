@@ -1,0 +1,318 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h4, h5{
+  margin: 5px;
+}
+
+/* About & Terms */
+
+.about {
+  
+  justify-content: center;
+  padding: 40px;
+  font-family: Source Sans Pro;
+ 
+}
+
+.TermsCondition{
+  justify-content: center;
+  padding: 40px;
+  font-family: Source Sans Pro;
+}
+
+/* Home */
+
+.main__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+
+}
+/* Header */
+
+.header {
+  background-color: #222222;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-items:  center;
+  color: white;
+}
+
+.header img {
+  padding: 30px;
+}
+
+.header__list{
+  list-style: none;
+}
+
+.header li {
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.header__blue{
+  text-decoration: none;
+  color: blue;
+  color: #2196F3;
+}
+
+.header__white{
+  text-decoration: none;
+  color: white;
+}
+
+/* Mallory Furniture */
+
+.landing__image{
+  height: 500px;
+  background-image: url('./images/landing-splash-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.landing__text{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  
+ 
+}
+
+/* Product Card */
+
+.product{
+  margin: 0;
+  color: #999999;border: 1px solid #DDDEF2;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.product__image img {
+  width: 100%;
+  justify-content: center;
+ 
+}
+
+/* ProductInfo */
+
+.product__info{
+  display: inline-flex;
+  margin-left: 15px;
+}
+
+.product-listing-left{
+  width: 515px;
+  height: 435px;
+  background: white;
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+  border: 1px solid #999999;
+  box-shadow: 1px 1px 1px #999999;
+}
+
+.item-image-single{
+  width: 500px;
+  height: 425px;
+  padding: 9px;
+}
+
+.product_desc-right{
+  width: 290px;
+  height: 200px;
+  background: white;
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+  border: 1px solid #999999;
+  box-shadow: 1px 1px 1px #999999;
+  position: relative;
+  left: 550px;
+  bottom: 475px;
+}
+
+.prod-cond, .prod-meas{
+  color: #999999;
+}
+
+.prod-item{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.prod-price{
+  position: relative;
+  margin:0 0 0 185px;
+  bottom: 10px;
+  font-size: 18px;
+
+}
+.prod-price-home{
+  margin:5px;
+  color: #999999;
+  font-weight: lighter;
+}
+
+.prod-desc-home{
+  color: black;
+}
+
+.prod-cart{
+  background-color: #f2433c;
+  font-size: 13px;
+  color: white;
+  border-radius: 30px;
+  width: 100px;
+}
+
+.prod-cart:hover{
+cursor: pointer;
+}
+
+/*ProductByCat*/
+
+.category__container{
+  display: inline-flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.category__product {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #999999;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.19);
+  width: 250px;
+ 
+  
+}
+
+.category__image img {
+  width: 100%;
+}
+
+.category__name{
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 12px;
+  margin: 10;
+}
+
+.category__price{
+  text-decoration: none;
+  margin: 0;
+  color: #999999;
+
+}
+
+.link{
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  border-top: 5px solid #F0EFEF;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer li {
+  margin: 0 0 16px 0;
+  list-style: none;
+  font-weight: bold;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: #222;
+  padding: 0;
+}
+
+.footer__list{
+  display: flex;
+  justify-content: center;
+}
+
+.color{
+  color: #F44336;
+}
+
+
+.container__grid{
+  width:100%;
+  display: flex;
+  background-color: black;
+  padding: 0;
+
+}
+
+.container__grid__img{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  height: 300px;
+
+}
+
+.button__container {
+   display: flex;
+   margin-left: 1200px;
+
+}
+.button__all{
+   justify-content: space-around;
+}
+
+.number__products{
+  margin-left: 1200px;
+
+}
+
+
+/*Shopping Cart*/
+
+.shopping-cart{
+  background-color: #ffc107;
+  height: 80px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-cart i { 
+  color: black;
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.shopping-cart:hover{
+  cursor: pointer;
+}
+
+
+
+
+
